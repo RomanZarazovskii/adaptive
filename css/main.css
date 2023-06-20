@@ -57,4 +57,218 @@ body {
   .container {
     width: 944px;
   }
+}
+
+.partner__section {
+  padding-top: 67px;
+  padding-bottom: 56px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .partner__section {
+    padding-top: 67px;
+    padding-bottom: 56px;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .partner__section {
+    padding-top: 67px;
+    padding-bottom: 56px;
+    text-align: center;
+  }
+}
+
+.hero__button {
+  width: 282px;
+  height: 43px;
+  background: #FF4E50;
+  border-radius: 50px;
+  border: none;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+@media screen and (min-width: 768px) {
+  .hero__button {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero__button {
+    font-size: 15px;
+  }
+}
+
+.partner__button {
+  background: #FFFFFF;
+  border: 2px solid #FF4E50;
+  border-radius: 50px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FF4E50;
+  padding: 12px 59px;
+}
+@media screen and (min-width: 768px) {
+  .partner__button {
+    background: #FFFFFF;
+    border: 2px solid #FF4E50;
+    border-radius: 50px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FF4E50;
+    margin-top: 38px;
+    padding: 12px 17px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .partner__button {
+    background: #FFFFFF;
+    border: 2px solid #FF4E50;
+    border-radius: 50px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FF4E50;
+    margin-top: 38px;
+    padding: 12px 17px;
+  }
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 19px;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .header {
+    padding-top: 36px;
+  }
+}
+
+.header .container {
+  display: flex;
+  flex-direction: column-reverse;
+}
+@media screen and (min-width: 768px) {
+  .header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.logo {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 112px;
+}
+@media screen and (min-width: 768px) {
+  .nav__list {
+    margin-bottom: 0;
+  }
+}
+
+.nav__list__item:not(:last-child) {
+  margin-right: 4px;
+}
+
+.nav__list__item:last-child {
+  background-color: rgba(26, 25, 21, 0.0001);
+  border: 2px solid #FFFFFF;
+  border-radius: 50px;
+}
+
+.nav__button {
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  text-align: center;
+  color: #FFFFFF;
+  border: none;
+  background-color: transparent;
+  padding: 10px;
+}
+
+.hero__section {
+  background-image: url(../images/hero/header-mobile.jpg);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding-bottom: 136px;
+  padding-top: 214px;
+}
+
+.hero__title {
+  font-size: 29.95px;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 12px;
+}
+
+.hero__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18.0246px;
+  line-height: 21px;
+  color: #FFFFFF;
+  padding-left: 27px;
+  padding-right: 27px;
+  margin-bottom: 17px;
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+  .hero__section {
+    background-image: url(../images/hero/tablet-header.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 233px;
+    padding-top: 201px;
+  }
+  .hero__title {
+    font-size: 52px;
+    line-height: 63px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 36px;
+  }
+  .hero__text {
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 33px;
+  }
+}
+/* Desktop */
+@media screen and (min-width: 1200px) {
+  .hero__section {
+    background-image: url(../images/hero/desk-header\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 233px;
+    padding-top: 201px;
+  }
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,76 @@
+.hero__section {
+    background-image: url(../images/hero/header-mobile.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 136px;
+    padding-top: 214px;
+}
+
+.hero__title {
+    font-size: 29.95px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+
+.hero__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18.0246px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding-left: 27px;
+    padding-right: 27px;
+    margin-bottom: 17px;
+}
+
+/* Tablet */
+
+@media screen and (min-width:768px) {
+    .hero__section {
+        background-image: url(../images/hero/tablet-header.jpg);
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        padding-bottom: 233px;
+        padding-top: 201px;
+    }
+
+    .hero__title {
+        font-size: 52px;
+        line-height: 63px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        padding-left: 100px;
+        padding-right: 100px;
+        margin-bottom: 36px;
+    }
+
+    .hero__text {
+        font-size: 24px;
+        line-height: 28px;
+        color: #FFFFFF;
+        margin-bottom: 33px;
+    }
+}
+
+/* Desktop */
+
+@media screen and (min-width:1200px) {
+    .hero__section {
+        background-image: url(../images/hero/desk-header\ 1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        padding-bottom: 233px;
+        padding-top: 201px;
+    }
+}

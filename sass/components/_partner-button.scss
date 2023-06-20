@@ -1,0 +1,37 @@
+.partner__button {
+    background: #FFFFFF;
+    border: 2px solid #FF4E50;
+    border-radius: 50px;
+
+    font-size: 14px;
+    line-height: 17px;
+    color: #FF4E50;
+
+    padding: 12px 59px;
+
+    @media screen and (min-width:768px) {
+            background: #FFFFFF;
+            border: 2px solid #FF4E50;
+            border-radius: 50px;
+    
+            font-size: 14px;
+            line-height: 17px;
+            color: #FF4E50;
+    
+            margin-top: 38px;
+            padding: 12px 17px;
+        }
+
+        @media screen and (min-width:1200px) {
+            background: #FFFFFF;
+            border: 2px solid #FF4E50;
+            border-radius: 50px;
+            
+            font-size: 14px;
+            line-height: 17px;
+            color: #FF4E50;
+            
+            margin-top: 38px;
+            padding: 12px 17px;
+        }
+    }
