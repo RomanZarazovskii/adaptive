@@ -61,7 +61,7 @@
     font-weight: 300;
     font-size: 14px;
     line-height: 16px;
-    color: #666666;
+    color: $partner__text__color;
 }
 
 @media screen and (min-width:768px) {
@@ -136,7 +136,7 @@
         font-weight: 300;
         font-size: 14px;
         line-height: 16px;
-        color: #666666;
+        color: $partner__text__color;
     }
 }
 
@@ -212,6 +212,6 @@
         font-weight: 300;
         font-size: 14px;
         line-height: 16px;
-        color: #666666;
+        color: $partner__text__color
     }
 }
