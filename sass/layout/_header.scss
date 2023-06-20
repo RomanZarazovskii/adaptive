@@ -30,10 +30,9 @@
     text-transform: uppercase;
     color: #FFFFFF;
 }
-
+ 
 .nav__list {
-    display: flex;
-    justify-content: center;
+    @extend %flex;
     margin-bottom: 112px;
 
     @media screen and (min-width:768px) {
